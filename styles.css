@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); */
+
+:root {
+  /* Colors */
+  --clr-pink: #ffc8dd;
+  --clr-blue: #a2d2ff;
+
+  /* Typography */
+  --ff: 'Fredericka the Great',
+    cursive;
+  --text-shadow: 0 0 2px #a2d2ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff);
+  text-align: center;
+  background: linear-gradient(var(--clr-pink), var(--clr-blue)) no-repeat;
+  color: black;
+  text-shadow: var(--text-shadow);
+}
+
+.img {
+  width: 25%;
+  /* max-width: 400px; */
+  border-radius: 50%;
+  border: 6px solid whitesmoke;
+}
+
+.background_text {
+  margin: .7em auto;
+  background-color: var(--clr-blue);
+  padding: .5em;
+  border-radius: 5px;
+}
+
+.age {
+  width: 10%;
+}
+
+.date {
+  width: 5%;
+}
+
+.gift-img {
+  margin: 20px auto;
+  width: 60%;
+  max-width: 400px;
+  height: 400px;
+  background-image: url(img/gift-cover.jpg);
+  background-size: cover;
+  border: 6px solid red;
+  border-radius: 5px;
+}
+
+.gift-happy:hover {
+  background-image: url(img/minion_happy.gif);
+}
+
+.gift-hot:hover {
+  background-image: url(img/office_hello.gif);
+}
+
+.gift-genius:hover {
+  background-image: url(img/amazing.gif);
+}
+
+.gift-badass:hover {
+  background-image: url(img/me.gif);
+}
+
+.gift-cheers:hover {
+  background-image: url(img/cheers.gif);
+}
