@@ -27,10 +27,10 @@ img {
 }
 
 .img {
-  width: 25%;
-  /* max-width: 400px; */
+  width: 45%;
+  max-width: 300px;
   border-radius: 50%;
-  border: 6px solid whitesmoke;
+  border: 6px solid lightcoral;
 }
 
 .background_text {
